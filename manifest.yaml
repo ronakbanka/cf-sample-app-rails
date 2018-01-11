@@ -1,0 +1,7 @@
+---
+applications:
+- name: rbanka-rails
+  memory: 512M
+  instances: 1
+  random-route: true
+  command: bundle exec rails s -p $PORT
